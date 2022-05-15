@@ -6,8 +6,8 @@ const Accordion = ({ title, content }:AccordionProps) => {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <div className="accordion-item bg-white border border-gray-200">
-      <div className="accordion-title accordion-button relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left bg-white border-0 rounded-none transition focus:outline-none collapsed" onClick={() => setIsActive(!isActive)}>
+    <div className="accordion-item  border border-gray-200">
+      <div className="accordion-title accordion-button relative flex items-center w-full py-4 px-5 text-base text-left border-0 rounded-none transition focus:outline-none collapsed" onClick={() => setIsActive(!isActive)}>
         <div><strong>{title}</strong></div>
         <div>{isActive ? '-' : '+'}</div>
       </div>
