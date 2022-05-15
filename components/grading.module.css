@@ -1,0 +1,22 @@
+.button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 24px 32px 24px 32px;
+    border: none;
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem; /* 24px */
+  }
+
+  /* accordion-button
+  flex
+  items-center
+  w-full
+  py-4
+  px-5
+  text-base text-gray-800 text-left
+  bg-white
+  border-0
+  rounded-none
+  transition
+  focus:outline-none */
