@@ -1,6 +1,7 @@
 
 import Callout from 'nextra-theme-docs/callout'
 import Staff from '../components/Staff'
+import {startTime, startTimeLabel} from '../configuration';
 
 # Syllabus
 
@@ -42,7 +43,7 @@ You should visit it frequently, and keep an eye on the announcements page. If an
 
 Attendance is expected at all classes. Being on time is also expected. **Being late is counted as an absence.**
 
-<Callout type="error" emoji="️🚫">Class starts at **2:30pm**, "Late" means that you enter class at or after **2:30:01**.</Callout>
+<Callout type="error" emoji="️🚫">Class starts at **{startTime} {startTimeLabel}**, "Late" means that you enter class at or after **{startTime}:01**.</Callout>
 
 ## Grading
 

@@ -1,0 +1,32 @@
+import { useSSG } from 'nextra/ssg'
+import {students} from "../configuration"
+import Schedule from '../components/Schedule'
+
+export const getStaticProps = ({ params }) => {
+  return {
+      props: {
+        // We add an `ssg` field to the page props,
+        // which will be provided to the Nextra `useSSG` hook.
+        ssg: {
+          stars: 40,
+          points: {"lol": 42},
+          students: students
+        },
+      },
+      // The page will be considered as stale and regenerated every 60 seconds.
+      revalidate: 60,
+    }
+}
+
+export const Page = () => {
+  // Get the data from SSG, and render it as a component.
+  const { stars, points } = useSSG()
+  return      <Schedule points={points}/>
+}
+
+
+# Scores
+
+Links to Student Websites with Current Scores (Sorted by last name)
+
+<Page/>

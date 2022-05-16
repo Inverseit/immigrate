@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./staff.module.css";
 
+import {ca} from "../configuration";
+
 type Props = { withCA ?: boolean };
 
 const Staff = ({ withCA = true }: Props) => {
@@ -27,16 +29,16 @@ const Staff = ({ withCA = true }: Props) => {
             <h4>Teaching Assistant</h4>
             <ul>
               <li>
-                <strong>Ulan Seitkaliyev</strong>
+                <strong>{ca.name}</strong>
               </li>
               <li>
                 Email:{" "}
-                <a href="mailto:useitkal@andrew.cmu.edu">
-                  useitkal@andrew.cmu.edu
+                <a href={"mailto:" + ca.email}>
+                  {ca.email}
                 </a>
               </li>
-              <li>Phone: 5553-4637</li>
-              <li>Office hours: By Appointment</li>
+              <li>Phone: {ca.number}</li>
+              <li>Office hours: {ca.oh}</li>
             </ul>
           </div>
         )}
