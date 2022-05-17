@@ -1,26 +1,25 @@
-# Website
+import Callout from 'nextra-theme-docs/callout'
 
-`nextra-theme-docs` uses [Prism](https://prismjs.com) and [prism-react-renderer](https://github.com/FormidableLabs/prism-react-renderer) 
-to highlight the code blocks. This section covers how you can customize it.
+# Website templates
 
-## More Languages
+<Callout emoji="⚠️">If you choose to **NOT** use one of the given templates below, please run your website by the professor or the CA.</Callout>
 
-To keep the bundle small, only a [subset of languages](https://github.com/FormidableLabs/prism-react-renderer/blob/master/src/vendor/prism/includeLangs.js)
-are included in the syntax highlighter. If you want to add more languages, you can do the following:
+### Basic templates
 
-1. Run `yarn add prismjs prism-react-renderer` to add dependencies to your Nextra project.
-2. Add the following code to your `pages/_app.js`:
+- [Edward Z. Yang](http://ezyang.com/)
+- [Template from CA](https://github.com/Inverseit/07129template)
 
-```jsx
-import Prism from 'prism-react-renderer/prism'
+### More Advanced
+If you want to notch it up and explore more templates, you can use any template online and edit it accordingly. Here are some of the recommended websites:
 
-(typeof global !== "undefined" ? global : window).Prism = Prism
+- [Bootstrap templates](http://getbootstrap.com/)
+- [One Page Love](https://onepagelove.com/)
+- [Website from the previous iteration by Talhah Peerbhai](https://web2.qatar.cmu.edu/~tpeerbha/)
 
-require("prismjs/components/prism-kotlin")
-require("prismjs/components/prism-csharp")
-```
+### Basic steps to use a website’s template:
 
-Restart your app and you will have Kotlin and C# code highlighting supported. 
-You can find the full list of available languages [here](https://github.com/PrismJS/prism/tree/master/components).
+1.	Save the webpage
+2.	Open the “index.html” file with a text editor 
+3.	Edit accordingly by replacing the text within the HTML tags with your information
 
-{/*## Custom Themes*/}
+<Callout>Your CA is here to help you!</Callout>

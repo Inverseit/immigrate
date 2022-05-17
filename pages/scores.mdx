@@ -1,6 +1,6 @@
 import { useSSG } from 'nextra/ssg'
 import {students} from "../configuration"
-import Schedule from '../components/Schedule'
+import Grades from '../components/Grades'
 
 export const getStaticProps = ({ params }) => {
   return {
@@ -21,12 +21,14 @@ export const getStaticProps = ({ params }) => {
 export const Page = () => {
   // Get the data from SSG, and render it as a component.
   const { stars, points } = useSSG()
-  return      <Schedule points={points}/>
+  return      <Grades points={points}/>
 }
 
 
 # Scores
 
-Links to Student Websites with Current Scores (Sorted by last name)
+Links to Student Websites with Current Scores (Sorted by last name). 
+
+Last updated 22th of August.
 
 <Page/>

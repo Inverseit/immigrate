@@ -135,7 +135,7 @@ const accordionData: AccordionProps[] = [
           <li>
             <p>
               <strong>Coding Challenges</strong> (2 points): Complete 2 coding
-              challenges given in this <a href="/resources/coging">page</a> ,
+              challenges given in this <a href="/resources/coding">page</a> ,
               along with any third one (outside this list) of your choice, and
               upload all their respective codes to your GitHub account (make it
               public).

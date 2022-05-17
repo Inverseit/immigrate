@@ -1,26 +1,16 @@
-# Templates
+import Callout from 'nextra-theme-docs/callout';
 
-`nextra-theme-docs` uses [Prism](https://prismjs.com) and [prism-react-renderer](https://github.com/FormidableLabs/prism-react-renderer) 
-to highlight the code blocks. This section covers how you can customize it.
+# CV templates
 
-## More Languages
+We recommended using **LaTeX** for creating CV files, but you can also use any text/document editor.
 
-To keep the bundle small, only a [subset of languages](https://github.com/FormidableLabs/prism-react-renderer/blob/master/src/vendor/prism/includeLangs.js)
-are included in the syntax highlighter. If you want to add more languages, you can do the following:
+Here is the list of LaTeX templates:
 
-1. Run `yarn add prismjs prism-react-renderer` to add dependencies to your Nextra project.
-2. Add the following code to your `pages/_app.js`:
+1. [Deedy Resume](https://www.overleaf.com/latex/templates/deedy-resume/sqdbztjjghvz#.WaUd5CgjE2w)
+2. [Curriculum Vitae](https://www.overleaf.com/latex/examples/curriculum-vitae/ztykfkztnqfh#.WaUeHigjE2w)
+3. [CV for freshers](https://www.overleaf.com/latex/templates/cv-for-freshers/jkpwvnrdrxpm#.WaUeNygjE2w)
+4. [Single column deedy CV](https://www.overleaf.com/latex/templates/single-column-deedy-cv-slash-resume-template/zwyxmkbrfgtz#.WaUeXygjE2w)
 
-```jsx
-import Prism from 'prism-react-renderer/prism'
+You can also use [this](https://www.overleaf.com/latex/templates/tagged/cv) big list of resume templates.
 
-(typeof global !== "undefined" ? global : window).Prism = Prism
-
-require("prismjs/components/prism-kotlin")
-require("prismjs/components/prism-csharp")
-```
-
-Restart your app and you will have Kotlin and C# code highlighting supported. 
-You can find the full list of available languages [here](https://github.com/PrismJS/prism/tree/master/components).
-
-{/*## Custom Themes*/}
+<Callout>Your CA is here to help you!</Callout>
