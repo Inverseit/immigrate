@@ -17,3 +17,5 @@ export const ca = {
   number: "5553-4637",
   oh: "By Appointment",
 };
+
+export const piazzaLink = "#";
