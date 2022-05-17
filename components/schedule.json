@@ -1,0 +1,111 @@
+[
+    {
+      "date": "23-Aug",
+      "day": "Mon",
+      "topic":
+        "Introduction to CS, Faculty, Study Skills, the course and expectations",
+      "links": [
+        { "title": "ppt", "link": "Docs/lec1.ppt" }
+      ]
+    },
+    {
+      "date": "25-Aug",
+      "day": "Wed",
+      "topic": "Kemal Oflazer - History and Future of CS",
+      "links": [
+        { "title": "pdf", "link": "Docs/History-of-CS-2021.pdf" }
+      ]
+    },
+    {
+      "date": "30-Aug",
+      "day": "Mon",
+      "topic": "Annette Vincent - Training on Unconscious Bias",
+      "links": [
+      ]
+    },
+    {
+      "date": "1-Sep",
+      "day": "Wed",
+      "topic": "Christos Kapoutsis - Theory of Computation",
+      "links": [
+        { "title": "board", "link": "Docs/Theoryboard.jpg" }
+      ]
+    },
+    {
+      "date": "6-Sep",
+      "day": "Mon",
+      "topic":
+        "How do we present something? Students practice presentations.",
+      "links": [
+      ]
+    },
+    {
+      "date": "8-Sep",
+      "day": "Wed",
+      "topic": "Ryan Riley - Security",
+      "links": [
+      ]
+    },
+    {
+      "date": "13-Sep",
+      "day": "Mon",
+      "topic": "Break; No Classes",
+      "links": [
+      ],
+      "breakDay": true
+    },
+    {
+      "date": "15-Sep",
+      "day": "Wed",
+      "topic": "Kemal Oflazer - Natural Language Processing",
+      "links": [
+      ]
+    },
+    {
+      "date": "20-Sep",
+      "day": "Mon",
+      "presentation": true,
+      "first": "Databases (Andrey Genze, Md Azmain Adib Pahlowan, Tra Bui, Iman Ouzzani)",
+      "second": "Computer Graphics / Vision (Abrar Tasneem Abir, Maimoonah Almashhadani, Fatima Yousaf)",
+      "links": [
+      ]
+    },
+    {
+      "date": "22-Sep",
+      "day": "Wed",
+      "topic": "Giselle Reis - Programming Languages",
+      "links": [
+      ]
+    },
+    {
+      "date": "27-Sep",
+      "day": "Mon",
+      "presentation": true,
+      "first": "Quantum Computing (Abdelrahman Gadelmoula, Md Tasnim Bin Akbar, Boushra Bendou)",
+      "second": "Cryptography (Talhah Peerbhai, Adithya Jaganathan, Eman Ansar, Maryam Aldosari)",
+      "links": [
+      ]
+    },
+    {
+      "date": "29-Sep",
+      "day": "Wed",
+      "topic": "Gianni Di Caro - Robotics and AI",
+      "links": [
+      ]
+    },
+    {
+      "date": "4-Oct",
+      "day": "Mon",
+      "presentation": true,
+      "first": "OS (Sara Zweil, Sarim Faraz, Hajer Dahmini, Lolwa Ibrahim)",
+      "second": "Virtual and Augmented Reality (Matthew Correa, Daanish Khan, Hanna Qasim, Aya Al Sabah)",
+      "links": []
+    },
+    {
+      "date": "6-Oct",
+      "day": "Wed",
+      "topic": "Saquib Razak - Embedded Systems",
+      "links": [
+      ]
+    }
+  ]
