@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 const Schedule = ({ scores, lastUpdated }: any) => {
   useEffect(() => {
-    console.log(scores);
+    console.log("Hello to the console. If you are the first person seeing this, then you deserve a bonus point. Email your CA! xD");
   }, []);
 
   return (
@@ -17,13 +17,13 @@ const Schedule = ({ scores, lastUpdated }: any) => {
                 <tr className="bg-gray-50">
                   <th
                     scope="col"
-                    className="text-sm font-bold text-gray-900 px-6 py-4 text-left"
+                    className="text-sm font-bold  px-6 py-4 text-left"
                   >
                     Name
                   </th>
                   <th
                     scope="col"
-                    className="text-sm font-bold text-gray-900 px-6 py-4 text-left"
+                    className="text-sm font-bold  px-6 py-4 text-left"
                   >
                     Projected Total
                   </th>
@@ -33,12 +33,12 @@ const Schedule = ({ scores, lastUpdated }: any) => {
                 {scores.map((student: any) => (
                   <tr
                     key={student.name}
-                    className="border-b transition duration-300 ease-in-out hover:bg-gray-100"
+                    className="border-b transition duration-300 ease-in-out table-row-custom"
                   >
-                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium ">
                       <a href={student.link}>{student.name}</a>
                     </td>
-                    <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                    <td className="text-sm  font-light px-6 py-4 whitespace-nowrap">
                       {student.grade}
                     </td>
                   </tr>

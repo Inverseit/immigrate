@@ -1,10 +1,9 @@
 export default {
     projectLink: null, // GitHub link in the navbar
     github: null, // GitHub link in the navbar
-    // docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master', // base URL for the docs repository
     titleSuffix: ' – 07-129',
-    nextLinks: true,
-    prevLinks: true,
+    nextLinks: false,
+    prevLinks:  false,
     search: false,
     defaultMenuCollapsed: true,
     floatTOC: true,

@@ -35,3 +35,15 @@
 .schedule-bg-green-400:hover	{
   background-color: rgb(187 247 208);
 }
+
+.dark .schedule-bg-green-400:hover	{
+  background-color: #15803d;
+}
+
+.table-row-custom:hover{
+  background-color: rgb(203 213 225);
+}
+
+.dark .table-row-custom:hover{
+  background-color: rgb(71 85 105);
+}

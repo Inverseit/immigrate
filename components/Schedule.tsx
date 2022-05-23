@@ -24,19 +24,19 @@ const Schedule = () => {
                 <tr className="bg-gray-50">
                   <th
                     scope="col"
-                    className="text-sm font-bold text-gray-900 px-6 py-4 text-left"
+                    className="text-sm font-bold  px-6 py-4 text-left"
                   >
                     Date
                   </th>
                   <th
                     scope="col"
-                    className="text-sm font-bold text-gray-900 px-6 py-4 text-left"
+                    className="text-sm font-bold  px-6 py-4 text-left"
                   >
                     Day
                   </th>
                   <th
                     scope="col"
-                    className="text-sm font-bold text-gray-900 px-6 py-4 text-left"
+                    className="text-sm font-bold  px-6 py-4 text-left"
                   >
                     Topic
                   </th>
@@ -44,14 +44,14 @@ const Schedule = () => {
               </thead>
               <tbody>
                 {schedule.map((event) => (
-                  <tr key={event.date} className={(event.breakDay ? "schedule-bg-green-400" : "hover:bg-gray-100") + " border-b transition duration-300 ease-in-out"}>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                  <tr key={event.date} className={(event.breakDay ? "schedule-bg-green-400" : "table-row-custom") + " border-b transition duration-300 ease-in-out"}>
+                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium ">
                       {event.date}
                     </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium ">
                       {event.day}
                     </td>
-                    <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                    <td className="text-sm  font-light px-6 py-4 whitespace-nowrap">
                       {getTopic(event)}
                     </td>
                   </tr>

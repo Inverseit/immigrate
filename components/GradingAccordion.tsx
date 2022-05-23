@@ -192,7 +192,7 @@ const GradingAccordion = (props: Props) => {
   return (
     <div className="accordion rounded-lg">
       {accordionData.map(({ title, content, deadline }) => (
-        <Accordion title={title} content={content} deadline={deadline} />
+        <Accordion key={title} title={title} content={content} deadline={deadline} />
       ))}
     </div>
   );
