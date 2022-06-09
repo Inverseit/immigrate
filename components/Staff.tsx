@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./staff.module.css";
 
-import {ca} from "../configuration";
+import {ca} from "../public/configuration";
 
 type Props = { withCA ?: boolean };
 

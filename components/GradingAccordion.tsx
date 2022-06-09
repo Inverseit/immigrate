@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { deadlines } from "../configuration";
+import { deadlines } from "../public/configuration";
 
 type AccordionProps = { title: string; deadline: string; content: JSX.Element };
 

@@ -1,7 +1,6 @@
 import { useSSG } from 'nextra/ssg'
-import {students} from "../configuration"
 import Grades from '../components/Grades'
-import gradeData from '../components/grading.json';
+import gradeData from '../public/grading.json';
 
 export const getStaticProps = ({ params }) => {
   return {

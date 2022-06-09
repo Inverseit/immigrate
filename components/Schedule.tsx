@@ -1,5 +1,5 @@
 import React from "react";
-import schedule from "./schedule.json";
+import schedule from "../public/schedule.json";
 
 const getTopic = ({ topic, breakDay, presentation, first, second }: any) => {
   if (topic) return topic;

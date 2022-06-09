@@ -36,7 +36,7 @@ const Schedule = ({ scores, lastUpdated }: any) => {
                     className="border-b transition duration-300 ease-in-out table-row-custom"
                   >
                     <td className="px-6 py-4 whitespace-nowrap text-sm font-medium ">
-                      <a href={student.link}>{student.name}</a>
+                      <a target="_blank" href={student.link}>{student.name}</a>
                     </td>
                     <td className="text-sm  font-light px-6 py-4 whitespace-nowrap">
                       {student.grade}
