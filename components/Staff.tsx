@@ -8,7 +8,7 @@ type Props = { withCA ?: boolean };
 const Staff = ({ withCA = true }: Props) => {
   return (
     <>
-      <div className={styles.main}>
+      <div className={styles.main + " sm:flex-col"}>
         <div>
           <h4>Instructors</h4>
           <ul>

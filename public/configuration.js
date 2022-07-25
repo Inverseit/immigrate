@@ -1,15 +1,15 @@
 export const deadlines = {
-  "0": "28th August",
-  "1": "4th September",
-  "2": "18th September",
-  "3": "25th September",
+  "0": "6th August",
+  "1": "13th August",
+  "2": "27th September",
+  "3": "3th September",
 };
 
 export const startTime = "2:30";
 export const startTimeLabel = "PM";
 export const endTime = "3:45";
 export const endTimeLabel = "PM";
-export const room = "2152";
+export const room = "TBA";
 
 export const ca = {
   name: "Ulan Seitkaliyev",
@@ -18,4 +18,4 @@ export const ca = {
   oh: "By Appointment",
 };
 
-export const piazzaLink = "#";
+export const piazzaLink = "https://piazza.com/class/l5zsfaf6xmp6xj";
