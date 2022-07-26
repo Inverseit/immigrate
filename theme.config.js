@@ -5,7 +5,7 @@ export default {
     nextLinks: false,
     prevLinks:  false,
     search: false,
-    defaultMenuCollapsed: true,
+    defaultMenuCollapsed: false,
     floatTOC: true,
     customSearch: null, // customizable, you can use algolia for example
     darkMode: true,

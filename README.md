@@ -1,34 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) and [Nextra](https://nextra.vercel.app/) a library for creating webpages with markdown language.
 
 ## Getting Started
 
-First, run the development server:
+You have to have `NodeJS` and a package manager `yarn`. Then move with `cd` into this folder and run the following to download the packages required.
 
 ```bash
-npm run dev
-# or
+yarn install
+```
+
+Then, run the development server:
+
+```bash
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result page.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Configuration
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+All you have to edit are the files 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- `public/configuration.js` to update information about class time, deadlines, piazza link and about youself.
+- `public/grading.json` to update student list and their points
+- `public/schedule.json` to update schedule of the lectures and dates. The schedule file is a list of the following object
 
-## Learn More
+```js
+    {
+      "date": "24-Aug", // date of the class
+      "day": "Wed", // Mon or Wed
+      "topic": "Kemal Oflazer - Natural Language Processing", // Lecture topic
+      "links": [
+      ], // links to the presentation / video / images
+      "breakDay": false // boolean, is it a break day or not
+      "presentation": true,  // is it a presentation day or not
+      "first": "The First Presentation", // first presentation topic, only needed if presentation day
+      "second": "The Second Presentation" // second presentation topic, only needed if presentation day
+    }
+```
 
-To learn more about Next.js, take a look at the following resources:
+
+## Deployment
+
+It is not easy to deploy a `NodeJS` applications from the AFS infrastructure that we have. To deploy any updates you have to do the following:
+
+- Build your app running `yarn build`
+- Create a static files by running `yarn next export`. This will create an out folder in this directory.
+- Now, we have to fix the links that are generated in the `out` folder. To do, open `/fixdeploy.js` file and edit `target_folder` constant. If you are building a staged version of your website, I suggest using `/~kharras/courses/07129/stage2023/` and if you are building a final version, just use `/~kharras/courses/07129/`, as then you can move the files directly to the root folder in the `unix` machines.
+- Run `node fixdeploy.js` to fix the files in the out folder.
+- Now, upload the files into `unix` servers.
+- Check the website.
+
+## Learn more
+
+To learn more about Next.js and Nextra, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Nextra Documentation](https://nextra.vercel.app/) - learn about Nextra works and how to configure it.
