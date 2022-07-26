@@ -43,12 +43,14 @@ All you have to edit are the files
 
 It is not easy to deploy a `NodeJS` applications from the AFS infrastructure that we have. To deploy any updates you have to do the following:
 
-- Build your app running `yarn build`
+- Build your app running `yarn build && yarn next export`
 - Create a static files by running `yarn next export`. This will create an out folder in this directory.
-- Now, we have to fix the links that are generated in the `out` folder. To do, open `/fixdeploy.js` file and edit `target_folder` constant. If you are building a staged version of your website, I suggest using `/~kharras/courses/07129/stage2023/` and if you are building a final version, just use `/~kharras/courses/07129/`, as then you can move the files directly to the root folder in the `unix` machines.
+- Open `fixdeploy.js` file and set the appropriate `target_folder`.[^1]
 - Run `node fixdeploy.js` to fix the files in the out folder.
 - Now, upload the files into `unix` servers.
 - Check the website.
+
+[^1]: Now, we have to fix the links that are generated in the `out` folder. To do, open `/fixdeploy.js` file and edit `target_folder` constant. If you are building a staged version of your website, I suggest using `/~kharras/courses/07129/stage2023/` and if you are building a final version, just use `/~kharras/courses/07129/`, then you can move the files directly to the root folder `/~kharras/courses/07129/` in the `unix` machines.
 
 ## Learn more
 
