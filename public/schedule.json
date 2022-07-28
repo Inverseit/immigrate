@@ -19,7 +19,7 @@
     {
       "date": "8-Aug",
       "day": "Mon",
-      "topic": "Annette Vincent - Training on Unconscious Bias",
+      "topic": "How do we present something? Students practice presentations.",
       "links": [
       ]
     },
@@ -34,15 +34,16 @@
     {
       "date": "15-Aug",
       "day": "Mon",
-      "topic":
-        "How do we present something? Students practice presentations.",
+      "presentation": true,
+      "first": "The First Presentation",
+      "second": "The Second Presentation",
       "links": [
       ]
     },
     {
       "date": "17-Aug",
       "day": "Wed",
-      "topic": "Ryan Riley - Security",
+      "topic": "Kemal Oflazer - Natural Language Processing",
       "links": [
       ]
     },
@@ -54,7 +55,7 @@
     {
       "date": "24-Aug",
       "day": "Wed",
-      "topic": "Kemal Oflazer - Natural Language Processing",
+      "topic": "Ryan Riley - Security", 
       "links": [
       ]
     },

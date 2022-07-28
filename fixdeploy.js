@@ -1,9 +1,9 @@
 const replace = require('replace-in-file');
 const fs = require('fs');
-const target_folder = "/~kharras/courses/07129/stage2022/"
+const target_folder_name = "/~kharras/courses/07129/"
 
 
-const replaceFunction = async () => {
+const replaceFunction = async (target_folder) => {
     try {
         await replace({
             files: ['out/**/*.html', 'out/**/*.js'],
@@ -34,6 +34,4 @@ fs.rename('out/_next/static/chunks/pages', 'out/_next/static/pages', (err) => {
     });
 });
 
-// out/_next/static/pages/resources
-
-replaceFunction();
+replaceFunction(target_folder_name);

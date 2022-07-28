@@ -9,7 +9,7 @@ export const startTime = "2:30";
 export const startTimeLabel = "PM";
 export const endTime = "3:45";
 export const endTimeLabel = "PM";
-export const room = "TBA";
+export const room = "1202";
 
 export const ca = {
   name: "Ulan Seitkaliyev",
