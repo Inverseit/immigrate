@@ -115,7 +115,7 @@ const accordionData: AccordionProps[] = [
           <li>
             <p>
               <strong>LinkedIn</strong> (1 point): Create a{" "}
-              <a href="linkedin.com">LinkedIn</a> account and attach your
+              <a href="https://linkedin.com">LinkedIn</a> account and attach your
               account&#x27;s link to your website.
             </p>
           </li>
@@ -135,7 +135,7 @@ const accordionData: AccordionProps[] = [
           <li>
             <p>
               <strong>Coding Challenges</strong> (2 points): Complete 2 coding
-              challenges given in this <a href="/resources/coding">page</a> ,
+              challenges given in this <a href="/resources/coding">page</a>,
               along with any third one (outside this list) of your choice, and
               upload all their respective codes to your GitHub account (make it
               public).
@@ -144,7 +144,7 @@ const accordionData: AccordionProps[] = [
           <li>
             <p>
               <strong>Course Plan</strong> (1 point): Make a course plan using
-              this <a href="COURSE_TEMPLATE_LINK">template</a>. This plan will
+              this <a href="/cs_plan_2022.ppt">template</a>. This plan will
               keep changing during your time at CMU, but you need to start with
               a tentative one. Upload a screenshot of your course plan on the
               website.
