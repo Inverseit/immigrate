@@ -81,6 +81,11 @@
       "grade": 35
     },
     {
+      "link": "http://www.qatar.cmu.edu/~mohammee/",
+      "name": "Mohammed Elsayed",
+      "grade": 35
+    },
+    {
       "link": "http://www.qatar.cmu.edu/~jingxia3/",
       "name": "Eric Gao",
       "grade": 35
@@ -136,13 +141,18 @@
       "grade": 35
     },
     {
+      "link": "http://www.qatar.cmu.edu/~rsaparkh/",
+      "name": "Raman Saparkhan",
+      "grade": 35
+    },
+    {
       "link": "http://www.qatar.cmu.edu/~sunayau/",
       "name": "Sunaya Upadhyay",
       "grade": 35
     },
     {
       "link": "http://www.qatar.cmu.edu/~haolinwa/",
-      "name": "Vincent Wang",
+      "name": "Haolin Wang",
       "grade": 35
     },
     {
@@ -156,5 +166,5 @@
       "grade": 35
     }
   ],
-  "lastUpdated": "25 July"
+  "lastUpdated": "31 July"
 }

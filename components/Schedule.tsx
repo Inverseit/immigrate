@@ -1,14 +1,21 @@
 import React from "react";
 import schedule from "../public/schedule.json";
 
-const getTopic = ({ topic, breakDay, presentation, first, second }: any) => {
+const getTopic = ({ topic, breakDay, presentation, first, second, mixed }: any) => {
   if (topic) return topic;
   if (breakDay) return "Break, No lecture";
+  if (mixed){
+    return <>
+      {first}
+      <br/>
+      <strong>Student presentation 1: </strong><span className="text-xs">{second}</span>
+    </>
+  }
   if (presentation){
     return <>
-      <strong>Presentation 1: </strong><span className="text-xs">{first}</span>
+      <strong>Student presentation 1: </strong><span className="text-xs">{first}</span>
       <br/>
-      <strong>Presentation 2: </strong><span className="text-xs">{second}</span>
+      <strong>Student presentation 2: </strong><span className="text-xs">{second}</span>
     </>
   }
 };

@@ -11,7 +11,7 @@
     {
       "date": "3-Aug",
       "day": "Wed",
-      "topic": "Kemal Oflazer - History and Future of CS",
+      "topic": "History and Future of CS",
       "links": [
         { "title": "pdf", "link": "Docs/History-of-CS-2021.pdf" }
       ]
@@ -34,9 +34,9 @@
     {
       "date": "15-Aug",
       "day": "Mon",
-      "presentation": true,
-      "first": "The First Presentation",
-      "second": "The Second Presentation",
+      "mixed": true,
+      "first": "Annette Vincent - Bias Busters",
+      "second": "The First Presentation",
       "links": [
       ]
     },
