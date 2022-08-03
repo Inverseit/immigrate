@@ -40,7 +40,7 @@ const accordionData: AccordionProps[] = [
             <strong>First Page</strong> (1 point): Upload your first webpage.
             This can be something as simple as a &quot;hello world&quot;, or you
             can migrate a page you already have/own, or use one of the templates
-            as the base for your future page.
+            as the base for your future page. Check <a href="/resources/useful/">this page</a> for useful links.
           </li>
         </ul>
       </>

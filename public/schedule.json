@@ -5,7 +5,7 @@
       "topic":
         "Introduction to CS, Faculty, Study Skills, the course and expectations",
       "links": [
-        { "title": "ppt", "link": "Docs/lec1.ppt" }
+        { "title": "pdf", "link": "/lecture1.pdf", "display": true }
       ]
     },
     {
@@ -13,7 +13,7 @@
       "day": "Wed",
       "topic": "History and Future of CS",
       "links": [
-        { "title": "pdf", "link": "Docs/History-of-CS-2021.pdf" }
+        { "title": "pdf", "link": "Docs/History-of-CS-2021.pdf", "display": false }
       ]
     },
     {
@@ -28,15 +28,15 @@
       "day": "Wed",
       "topic": "Christos Kapoutsis - Theory of Computation",
       "links": [
-        { "title": "board", "link": "Docs/Theoryboard.jpg" }
+        { "title": "board", "link": "Docs/Theoryboard.jpg", "display": false }
       ]
     },
     {
       "date": "15-Aug",
       "day": "Mon",
       "mixed": true,
-      "first": "Annette Vincent - Bias Busters",
-      "second": "The First Presentation",
+      "first": {"topic": "Annette Vincent - Bias Busters", "students": []},
+      "second": {"topic": "Quantum Computing", "students": ["Mugur Preda", "Mohamed Elsayed", "Mohamed Mohamed", "Mohammed Elsayed", "Abdelrahman Abdullah"]},
       "links": [
       ]
     },
@@ -63,8 +63,8 @@
       "date": "29-Aug",
       "day": "Mon",
       "presentation": true,
-      "first": "The First Presentation",
-      "second": "The Second Presentation",
+      "first":  {"topic": "The First Presentation", "students": []},
+      "second": {"topic": "The Second Presentation", "students": []},
       "links": [
       ]
     },
@@ -79,8 +79,8 @@
       "date": "5-Sep",
       "day": "Mon",
       "presentation": true,
-      "first": "The First Presentation",
-      "second": "The Second Presentation",
+      "first":  {"topic": "The First Presentation", "students": []},
+      "second": {"topic": "The Second Presentation", "students": []},
       "links": [
       ]
     },
@@ -95,8 +95,8 @@
       "date": "12-Sep",
       "day": "Mon",
       "presentation": true,
-      "first": "The First Presentation",
-      "second": "The Second Presentation",
+      "first":  {"topic": "The First Presentation", "students": []},
+      "second": {"topic": "The Second Presentation", "students": []},
       "links": [
       ]
     },
