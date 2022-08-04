@@ -13,7 +13,7 @@
       "day": "Wed",
       "topic": "History and Future of CS",
       "links": [
-        { "title": "pdf", "link": "Docs/History-of-CS-2021.pdf", "display": false }
+        { "title": "pdf", "link": "/History-of-CS-2022.pdf", "display": true }
       ]
     },
     {
@@ -43,7 +43,7 @@
     {
       "date": "17-Aug",
       "day": "Wed",
-      "topic": "Kemal Oflazer - Natural Language Processing",
+      "topic": "Mohammad Hammoud - Cloud Computing",
       "links": [
       ]
     },
@@ -103,7 +103,7 @@
     {
       "date": "14-Sep",
       "day": "Wed",
-      "topic": "Saquib Razak - Embedded Systems",
+      "topic": "Madhavi Ganapathiraju - Computational Biology",
       "links": [
       ]
     }
