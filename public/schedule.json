@@ -1,110 +1,148 @@
 [
-    {
-      "date": "1-Aug",
-      "day": "Mon",
-      "topic":
-        "Introduction to CS, Faculty, Study Skills, the course and expectations",
-      "links": [
-        { "title": "pdf", "link": "/lecture1.pdf", "display": true }
+  {
+    "date": "1-Aug",
+    "day": "Mon",
+    "topic": "Introduction to CS, Faculty, Study Skills, the course and expectations",
+    "links": [{ "title": "pdf", "link": "/lecture1.pdf", "display": true }]
+  },
+  {
+    "date": "3-Aug",
+    "day": "Wed",
+    "topic": "History and Future of CS",
+    "links": [
+      { "title": "pdf", "link": "/History-of-CS-2022.pdf", "display": true }
+    ]
+  },
+  {
+    "date": "8-Aug",
+    "day": "Mon",
+    "topic": "How do we present something? Students practice presentations.",
+    "links": []
+  },
+  {
+    "date": "10-Aug",
+    "day": "Wed",
+    "topic": "Christos Kapoutsis - Theory of Computation",
+    "links": [
+      { "title": "board", "link": "Docs/Theoryboard.jpg", "display": false }
+    ]
+  },
+  {
+    "date": "15-Aug",
+    "day": "Mon",
+    "mixed": true,
+    "first": { "topic": "Annette Vincent - Bias Busters", "students": [] },
+    "second": {
+      "topic": "Quantum Computing",
+      "students": [
+        "Mugur Preda",
+        "Mohamed Elsayed",
+        "Mohamed Mohamed",
+        "Mohammed Elsayed",
+        "Abdelrahman Abdullah"
       ]
     },
-    {
-      "date": "3-Aug",
-      "day": "Wed",
-      "topic": "History and Future of CS",
-      "links": [
-        { "title": "pdf", "link": "/History-of-CS-2022.pdf", "display": true }
+    "links": []
+  },
+  {
+    "date": "17-Aug",
+    "day": "Wed",
+    "topic": "Mohammad Hammoud - Cloud Computing",
+    "links": []
+  },
+  {
+    "date": "22-Aug",
+    "day": "Mon",
+    "breakDay": true
+  },
+  {
+    "date": "24-Aug",
+    "day": "Wed",
+    "topic": "Ryan Riley - Security",
+    "links": []
+  },
+  {
+    "date": "29-Aug",
+    "day": "Mon",
+    "presentation": true,
+    "first": {
+      "topic": "Computer Graphics",
+      "students": [
+        "Seckhen Ariel Andrade Cuellar",
+        "Hamzah Hamad",
+        "Aaditya Nair",
+        "Steve Ndayambaje",
+        "Raman Saparkhan"
       ]
     },
-    {
-      "date": "8-Aug",
-      "day": "Mon",
-      "topic": "How do we present something? Students practice presentations.",
-      "links": [
+    "second": {
+      "topic": "Machine Learning",
+      "students": [
+        "Abdulla Al-Janahi",
+        "Khalid Alnaama",
+        "Imron Barotov",
+        "Alikhan Chyngyz",
+        "Nick Devidze"
       ]
     },
-    {
-      "date": "10-Aug",
-      "day": "Wed",
-      "topic": "Christos Kapoutsis - Theory of Computation",
-      "links": [
-        { "title": "board", "link": "Docs/Theoryboard.jpg", "display": false }
-      ]
-    },
-    {
-      "date": "15-Aug",
-      "day": "Mon",
-      "mixed": true,
-      "first": {"topic": "Annette Vincent - Bias Busters", "students": []},
-      "second": {"topic": "Quantum Computing", "students": ["Mugur Preda", "Mohamed Elsayed", "Mohamed Mohamed", "Mohammed Elsayed", "Abdelrahman Abdullah"]},
-      "links": [
-      ]
-    },
-    {
-      "date": "17-Aug",
-      "day": "Wed",
-      "topic": "Mohammad Hammoud - Cloud Computing",
-      "links": [
-      ]
-    },
-    {
-      "date": "22-Aug",
-      "day": "Mon",
-      "breakDay": true
-    },
-    {
-      "date": "24-Aug",
-      "day": "Wed",
-      "topic": "Ryan Riley - Security", 
-      "links": [
-      ]
-    },
-    {
-      "date": "29-Aug",
-      "day": "Mon",
-      "presentation": true,
-      "first":  {"topic": "The First Presentation", "students": []},
-      "second": {"topic": "The Second Presentation", "students": []},
-      "links": [
-      ]
-    },
-    {
-      "date": "31-Aug",
-      "day": "Wed",
-      "topic": "Giselle Reis - Programming Languages",
-      "links": [
-      ]
-    },
-    {
-      "date": "5-Sep",
-      "day": "Mon",
-      "presentation": true,
-      "first":  {"topic": "The First Presentation", "students": []},
-      "second": {"topic": "The Second Presentation", "students": []},
-      "links": [
-      ]
-    },
-    {
-      "date": "7-Sep",
-      "day": "Wed",
-      "topic": "Gianni Di Caro - Robotics and AI",
-      "links": [
-      ]
-    },
-    {
-      "date": "12-Sep",
-      "day": "Mon",
-      "presentation": true,
-      "first":  {"topic": "The First Presentation", "students": []},
-      "second": {"topic": "The Second Presentation", "students": []},
-      "links": [
-      ]
-    },
-    {
-      "date": "14-Sep",
-      "day": "Wed",
-      "topic": "Madhavi Ganapathiraju - Computational Biology",
-      "links": [
-      ]
-    }
-  ]
+    "links": []
+  },
+  {
+    "date": "31-Aug",
+    "day": "Wed",
+    "topic": "Giselle Reis - Programming Languages",
+    "links": []
+  },
+  {
+    "date": "5-Sep",
+    "day": "Mon",
+    "presentation": true,
+    "first": { "topic": "Cryptography", "students": [
+      "Zeina Halawa",
+      "Malak Ibrahim",
+      "Adan Jawad",
+      "Khadija Warraich",
+      "Zengru Zheng"
+    ] },
+    "second": { "topic": "Computer Architecture", "students": [
+      "Asser Abdelfattah",
+      "Jana Abdelmaguid",
+      "Maryam Khodadadi",
+      "Haolin Wang",
+      "Gani Raissov"
+    ] },
+    "links": []
+  },
+  {
+    "date": "7-Sep",
+    "day": "Wed",
+    "topic": "Gianni Di Caro - Robotics and AI",
+    "links": []
+  },
+  {
+    "date": "12-Sep",
+    "day": "Mon",
+    "presentation": true,
+    "first": { "topic": "Virtual and Augmented Reality", "students": [
+      "Haya Al Kubaisi",
+      "Maryam Al Obaidli",
+      "Salwa Al-Kuwari",
+      "Hend Aldosari",
+      "Abdallah Almana"
+    ] },
+    "second": { "topic": "Operating Systems", "students": [
+      "Rainier Agcaoili",
+      "Enoch Luis Catuncan",
+      "Jingxiang Gao",
+      "Aditya Gupta",
+      "Sunaya Upadhyay"
+    ] },
+    "links": []
+  },
+  {
+    "date": "14-Sep",
+    "day": "Wed",
+    "topic": "Madhavi Ganapathiraju - Computational Biology",
+    "links": []
+  }
+]
