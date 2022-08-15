@@ -1,7 +1,7 @@
 export const deadlines = {
   "0": "6th August",
   "1": "13th August",
-  "2": "27th September",
+  "2": "27th August",
   "3": "3th September",
 };
 
