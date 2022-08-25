@@ -40,7 +40,8 @@ const accordionData: AccordionProps[] = [
             <strong>First Page</strong> (1 point): Upload your first webpage.
             This can be something as simple as a &quot;hello world&quot;, or you
             can migrate a page you already have/own, or use one of the templates
-            as the base for your future page. Check <a href="/resources/useful/">this page</a> for useful links.
+            as the base for your future page. Check{" "}
+            <a href="/resources/useful/">this page</a> for useful links.
           </li>
         </ul>
       </>
@@ -107,7 +108,16 @@ const accordionData: AccordionProps[] = [
                 Office of Professional Development
               </a>{" "}
               for help on how to build a resume gives you 1{" "}
-              <strong>extra</strong> point. <br />
+              <strong>extra</strong> point.
+              To make an appointment, use {" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://cmu.joinhandshake.com/appointments"
+              >
+                Appointments | Handshake (joinhandshake.com)
+              </a>.
+              <br />
               You are strongly recommended to use one of the{" "}
               <a href="/resources/templates">templates</a> page.
             </p>
@@ -115,8 +125,8 @@ const accordionData: AccordionProps[] = [
           <li>
             <p>
               <strong>LinkedIn</strong> (1 point): Create a{" "}
-              <a href="https://linkedin.com">LinkedIn</a> account and attach your
-              account&#x27;s link to your website.
+              <a href="https://linkedin.com">LinkedIn</a> account and attach
+              your account&#x27;s link to your website.
             </p>
           </li>
         </ul>
@@ -144,9 +154,9 @@ const accordionData: AccordionProps[] = [
           <li>
             <p>
               <strong>Course Plan</strong> (1 point): Make a course plan using
-              this <a href="/cs_plan_2022.ppt">template</a>. This plan will
-              keep changing during your time at CMU, but you need to start with
-              a tentative one. Upload a screenshot of your course plan on the
+              this <a href="/cs_plan_2022.ppt">template</a>. This plan will keep
+              changing during your time at CMU, but you need to start with a
+              tentative one. Upload a screenshot of your course plan on the
               website.
             </p>
           </li>
@@ -192,7 +202,12 @@ const GradingAccordion = (props: Props) => {
   return (
     <div className="accordion rounded-lg">
       {accordionData.map(({ title, content, deadline }) => (
-        <Accordion key={title} title={title} content={content} deadline={deadline} />
+        <Accordion
+          key={title}
+          title={title}
+          content={content}
+          deadline={deadline}
+        />
       ))}
     </div>
   );
