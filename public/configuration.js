@@ -2,7 +2,7 @@ export const deadlines = {
   "0": "6th August",
   "1": "13th August",
   "2": "27th August",
-  "3": "3th September",
+  "3": "3rd September",
 };
 
 export const startTime = "2:30";
