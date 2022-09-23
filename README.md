@@ -43,6 +43,7 @@ All you have to edit are the files
 
 It is not easy to deploy a `NodeJS` applications from the AFS infrastructure that we have. To deploy any updates you have to do the following:
 
+- Install `NodeJs` and `yarn` into your local machine.
 - Build your app by running `yarn build && yarn next export` command.
 - Create a static files by running `yarn next export`. This will create an `out` folder in this directory.
 - Open `fixdeploy.js` file and set the appropriate `target_folder`[^1].
